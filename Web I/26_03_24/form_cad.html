@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="imagen" href="/26_03_24/img/alanzuka.jpeg">
+    <title>Formulário Cadastral</title>
+</head>
+
+<body>
+    <form action="" method="post" enctype="multipart/form-data">  
+        <fieldset>
+
+            <legend>Dados Pessoais</legend>
+
+            <label>Nome completo> </label>
+            <input type="text"  name="nome" id="nome" placeholder="Alan Ferreira"    required>
+            <input type="text"  name="email"    id="email" >
+            <label>E-mail: </label>
+            <label>Senha: </label>
+            <input type="password"  name="senha"    id="senha"  required>
+            <br/>
+            <label>Sexo:</label>
+                <label>
+                    <input type="radio" name="sexo"  value="Masculino">Masculino
+                </label>
+                <label>
+                    <input type="radio" name="sexo"  value="Feminino">Feminino
+                </label>
+
+        </fieldset>
+    
+        <br/>
+
+    <fieldset>
+        <label>Endereço</label>
+        <label>CEP: </label>
+        <input type="number"    name="cep" id="cep" maxlength="9">
+        <label>Logradouro: </label>
+        <input type="text"  name="logradouro"  id="logradouro" required>
+        <label>Número: </label>
+        <input type="number"  name="numero" id="numero" required>
+        <br/>
+        <label>Complemento: </label>
+        <input type="text"  name="complemento"  id="complemento">
+
+    </fieldset>
+
+    <fieldset>
+
+        <label>Dados Financeiros</label>
+
+        <label>Tipo:</label>
+                <label>
+                    <input type="radio" name="tipo"  value="Nacional">Nacional
+                </label>
+                <label>
+                    <input type="radio" name="tipo"  value="Internacional">Internacional
+                </label>&nbsp;&nbsp;&nbsp;&nbsp;
+                <label>Bandeira</label>
+                <select name="bandeira"   id="bandeira">
+                    <option value="mt">MasterCard</option>
+                    <option value="vs">Visa</option>
+                    <option value="ax">America Express</option>
+                    <option value="el">Elo</option>
+                </select>
+                <label> Núm. Do Cartão</label>
+                <input type="number"    name="numcartao" id="numcartao" maxlength="16">
+                <br/>
+
+                <label>Validade</label>
+                <input type="date" name="validade"  id="validade"/>
+
+    </fieldset>
+    
+    <input type="submit" value="Enviar" />
+    <input type="reset" value="Limpar">
+
+</body>
+</html>
