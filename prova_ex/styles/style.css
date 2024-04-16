@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(206, 209, 13);
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+img.image {
+    display: inline-block;
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.links {
+    text-align: center;
+}
+
+table {
+    width: 50%;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.center-text {
+    text-align: center;
+    margin-top: 20px;
+}
+
+form {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 5px;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type="submit"], input[type="reset"] {
+    display: block;
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
