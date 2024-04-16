@@ -1,0 +1,45 @@
+.winner-header {
+    text-align: center;
+    padding: 1px 0;
+    background-color: #2a2c35;
+    color: #fff;
+    font-family: 'Henny Penny', sans-serif;
+    font-size: xx-large;
+
+}
+
+.winner-message {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    font-size: larger;
+}
+
+.winner-image {
+    text-align: center;
+    font-size: larger;
+}
+
+.winner-image img {
+    max-width: 300px;
+    max-height: 200px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.t_button{
+    justify-content: center;
+    display: flex;
+    margin-top: 15vh;
+    margin-bottom: 10px;
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #000;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
