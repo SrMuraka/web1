@@ -1,0 +1,229 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #477c9c;
+    color: #ffffff;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.custom-navbar {
+    background-color: #477c9c !important;
+}
+
+.navbar-brand img {
+    width: 50px; 
+    height: auto;
+    margin-right: 10px;
+}
+
+.middle-description {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; 
+    font-size:100px !important;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    z-index: 10;
+    font-family: 'Dancing Script', cursive;
+}
+
+
+.carousel-inner {
+    height: 80vh;
+}
+
+.carousel-item {
+    height: 100%;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.card {
+    border: 1px solid rgba(0,0,0,.125);
+}
+
+.card-body {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.card-text {
+    color: #666;
+}
+
+.card-img-top {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.text-center {
+    text-align: center;
+}
+
+#services {
+    padding: 40px 0;
+}
+
+.accordion-item {
+    margin-bottom: 20px;
+}
+
+.accordion-button {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.accordion-button:hover {
+    background-color: #0056b3;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-body {
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.125);
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+    padding: 15px;
+}
+
+
+#products {
+    padding: 40px 0;
+}
+
+#products .card {
+    height: 100%;
+}
+
+#products .card-body {
+    padding: 20px;
+}
+
+#products .card-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#products .card-text {
+    font-size: 14px;
+    color: #666;
+}
+
+#clients {
+    padding: 50px 0;
+}
+
+#clients h2 {
+    margin-bottom: 30px;
+}
+
+.client-card {
+    border: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.client-card-body {
+    padding: 20px;
+    background-color: #f0f2f5; 
+}
+
+.client-card-title {
+    font-size: 16px;
+    font-weight: bold; 
+    color: #385898;
+    margin-bottom: 10px;
+}
+
+.client-card-text {
+    font-size: 14px;
+    color: #000; 
+}
+
+.client-card-img-top {
+    border-radius: 50%; 
+    max-width: 80px; 
+    max-height: 80px; 
+    float: left; 
+    margin-right: 20px; 
+}
+
+.client-info {
+    overflow: hidden; 
+}
+
+.client-name {
+    font-weight: bold;
+    color: #385898; 
+    float: left; 
+    margin-right: 10px; 
+}
+
+.client-card-text {
+    overflow: hidden;
+    margin-top: 5px; 
+}
+
+#location {
+    padding: 40px 0;
+    background-color: #b5c2ca;
+    text-align: center; 
+}
+
+#location iframe {
+    border: none;
+    width: 100%;
+    height: 400px;
+}
+
+#contact {
+    padding: 50px 0;
+    background-color: #f8f9fa;
+}
+
+#contact h2 {
+    margin-bottom: 30px;
+}
+
+#contact form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact form .form-label {
+    font-weight: bold;
+}
+
+#contact form .form-control {
+    margin-bottom: 20px;
+}
+
+#contact form textarea {
+    resize: none;
+}
