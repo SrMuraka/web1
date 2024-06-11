@@ -1,0 +1,105 @@
+body {
+    background-color: black;
+    color: white; /* Defina a cor do texto para branco para garantir boa legibilidade */
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+/* Estilos para as caixas de texto */
+.form-control {
+    width: 100%; /* Define a largura para ocupar toda a largura do contêiner pai */
+}
+
+/* Estilos para a caixa de texto do número */
+#numero {
+    width: 100px; /* Defina o tamanho desejado para a caixa de texto do número */
+}
+
+#cidade {
+    width: 100px; /* Defina o tamanho desejado para a caixa de texto do número */
+}
+
+#complemento {
+    width: 75px; /* Defina o tamanho desejado para a caixa de texto do número */
+}
+
+#logradouro{
+    width: 200px;
+}
+
+
+#estado {
+    width: 100px; /* Defina o tamanho desejado para a caixa de texto do número */
+}
+
+/* Estilos para os campos de entrada */
+.form-control {
+    margin-bottom: 15px;
+}
+
+/* Estilos para os rótulos */
+.form-label {
+    font-weight: bold;
+}
+
+/* Estilos para os botões */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* Estilos para os textos de ajuda */
+.form-text {
+    color: #6c757d;
+}
+
+/* Estilos para o botão de enviar */
+.btn-primary {
+    margin-top: 20px;
+}
+
+/* Estilos para a caixa de texto pequena */
+.form-control[aria-describedby="nomeHelp"],
+.form-control[aria-describedby="emailHelp"],
+.form-control[aria-describedby="telefoneHelp"],
+.form-control[aria-describedby="dataNascimentoHelp"],
+.form-control[aria-describedby="senhaHelp"],
+.form-control[aria-describedby="logradouroHelp"],
+.form-control[aria-describedby="numeroHelp"],
+.form-control[aria-describedby="complementoHelp"],
+.form-control[aria-describedby="bairroHelp"],
+.form-control[aria-describedby="cidadeHelp"],
+.form-control[aria-describedby="estadoHelp"],
+.form-control[aria-describedby="cepHelp"] {
+    width: calc(50% - 10px);
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* Estilos para o botão de enviar pequeno */
+.btn-primary {
+    padding: 10px 20px;
+}
+
+/* Estilos para os botões */
+.btn-warning {
+    background-color: #7834fc; /* Nova cor de fundo */
+    border-color: #7834fc; /* Nova cor da borda */
+}
+
+.btn-warning:hover {
+    background-color: #7834fc; /* Cor de fundo ao passar o mouse */
+    border-color: #7834fc; /* Cor da borda ao passar o mouse */
+}
